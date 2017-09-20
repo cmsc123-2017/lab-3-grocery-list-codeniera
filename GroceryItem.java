@@ -30,4 +30,8 @@ class GroceryItem {
       return false;
     }
   }
+  public void bought(){
+    this.isBought = true;
+  }
+  
 }

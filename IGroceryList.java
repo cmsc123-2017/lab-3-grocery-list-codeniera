@@ -6,4 +6,10 @@ interface IGroceryList {
   boolean markAsBought(String name);
   
   void display();
+  
+  int indexOf(String name);
+  
+  int totalQuantity();
+  
+  boolean reduceQuantity(String itemName, int quantity);
 }
